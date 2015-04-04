@@ -1,0 +1,243 @@
+#main{
+    width: 900px;
+    height: 900px;
+    margin:-10px auto 0;
+}
+
+#header {
+	height: 60px;
+    width: 900px;
+	background-color: #26C6DA;
+    display: table;
+}
+.header_buttons{
+    display:table-cell;
+    width: 60px;
+    height: inherit;
+    vertical-align: middle;
+    color:white;    
+    font-family:Arial;
+    text-align: center;
+    font-size:14px;
+}
+.header_buttons:hover{
+    background-color: #00BCD5;   
+}
+#header_long_button{
+    display:table-cell;
+    width: 450px;
+    height: inherit;
+}
+
+#header_buttons_static{
+    display:table-cell;
+    width: 60px;
+    height: inherit;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.left_menu {
+	float: left;
+	width: 185;
+    height: 840px;
+	background-color: #1B2929;
+}
+
+#left_menu_admin{
+    height: 150;
+}
+
+.menu_admin{
+    padding: 13.5;
+    display:table-cell;
+    vertical-align: top;
+}
+
+#menu_admin_name{
+    font-family: arial;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#menu_admin_prof{
+    font-family: arial;
+    color:wheat;
+    text-align: center;
+    font-weight:normal;
+    font-size: 14;
+    color: #B1B2B4;
+}
+
+.left_menu_buttons{
+    border-left: 7px solid rgba(0, 0, 0, 0);
+    height: 40px;
+    width: 178;
+    font-family:Arial;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: left;
+    color:B1B2B4;
+    display:table;
+}
+
+.left_bot_icon{
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+#menu_down_line{
+    display: table-cell;
+    width: 40px;
+    text-align: center;
+}
+
+.left_menu_buttons:hover{
+        background-color: #323F3F;
+}
+a{
+ text-decoration: none;   
+}
+
+#menu_click{
+    border-left-color: #26C6DA;
+    background-color: #323F3F;
+    color: #26C6DA;
+}
+
+#work{
+    width: 715px;
+    height: 840;
+    float:left;
+    background-color: #F4F4F4;
+}
+.comp{
+    float:left;
+    font-size:11;
+    font-family: arial;
+    padding:12;
+    color:#8A8A8A;
+}
+#work_zone{
+    width: 600px;
+    height: 790;
+    margin: 50 auto 0;
+
+}
+#work_zone_head{
+    border-top: solid 3px #26C6DA;
+    margin-bottom: 1px;
+    background-color: white;
+    color: #26C6DA;
+    font-family: arial;
+    padding: 16;
+    font-size:16px;
+}
+.work_zone_current{
+        height: 50px;
+        width: 50%;
+        float:left;
+        background-color: white;
+        text-align: center;
+        padding: 15 0 0 0;
+        font-family: arial;
+        line-height: 1.5;
+        font-size:15px;
+        color:#8A8A8A;
+}
+
+#work_zone_tasks{
+    height: 670;
+    width: 100%;
+    float:left;
+    background-color: white;
+ }
+#work_zone_tasks_left{    
+    float:left;
+    margin-left: 5%;
+}
+#work_zone_tasks_right{    
+    float:right;
+    margin-right: 5%;
+}
+.work_zone_tasks{
+    border-top: solid 3px #F4F4F4;
+    width: 45%;
+    height: inherit;
+}
+#finder{
+    float:right;
+    border: 2px solid #F4F4F4; 
+    padding: 2px 2px 2px 30px; 
+}
+.task{
+    padding: 15 15 0;
+    font-family: arial;
+    font-size:12;
+    margin-bottom: 10;
+    color:#8A8A8A;
+    display:inline-block;
+}
+
+.task_bottom{
+    height: 12;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+
+.task_date{
+    width: 50%;
+    float:left;
+    font-weight: bold;
+
+}
+.task_icon{
+    width: 12;
+    float:right;
+    cursor: pointer;
+}
+
+
+/*вслпывающие окна*/
+.task_icon:active + .task_date{
+    background-color: red;
+}
+
+.content {
+    position: absolute;
+    width: 250;
+    background: #BADDD7;
+    font: 14px Arial;
+}
+
+
+/* кнопки */
+
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em; //* изменения  отступа для регулировки размера *//
+	text-shadow: 0 1px 1px rgba(0,0,0,.3); //* эффект тени для текста *//
+	-webkit-border-radius: .5em;  //* закругленные углы *//
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2); //* эффект тени для блока кнопки *//
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {          //* смещение на 1px вниз *//
+	position: relative;  
+	top: 1px; 
+}
